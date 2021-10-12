@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-	ami = "ami-04db49c0fb2215364"
+	ami = "ami-06a0b4e3b7eb7a300"
 	instance_type = "t2.micro"
 	subnet_id = "subnet-00a9d74c"
 	key_name = "mykey1"
