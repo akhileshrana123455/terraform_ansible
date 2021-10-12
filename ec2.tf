@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
-	ami = "ami-06a0b4e3b7eb7a300"
+	ami = "ami-02e136e904f3da870"
 	instance_type = "t2.micro"
-	subnet_id = "subnet-00a9d74c"
+	subnet_id = "subnet-d5dfa098"
 	key_name = "mykey1"
 	vpc_security_group_ids = ["sg-05b5cb516173badca"]
 	provisioner "remote-exec" {
