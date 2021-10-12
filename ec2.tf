@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
 	instance_type = "t2.micro"
 	subnet_id = "subnet-d5dfa098"
 	key_name = "mykey1"
-	vpc_security_group_ids = ["sg-0274c376c1bcdaa3c"]
+	vpc_security_group_ids = ["sg-0bdece2a7ff96e8bf"]
 	provisioner "remote-exec" {
 		inline = ["sudo yum install -y python3"]
 		connection {
